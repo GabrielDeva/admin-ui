@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';  // Import index.css dulu
-import './App.css';    // Lalu App.css
-import Exercise from './Exercise.jsx';
+import './index.css';  
+import './App.css';    
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Exercise />
+    <App />
   </React.StrictMode>
 );
